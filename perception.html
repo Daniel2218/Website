@@ -1,0 +1,71 @@
+<html>
+	<head>
+		 <link rel="stylesheet" type="text/css" href="css/perceptionStyle.css" />
+	</head>
+
+	<body>
+		<!-- Header -->
+		<section class ="intro">	
+			<a href="index.html">
+		  		<img src="img/logo.png" alt="">
+			</a>
+			<h1>Perception</h1>
+			<p><span class="element"></span></p>
+			<div id ="hidden">
+				<img class="img-responsive" id ="imger" src="img/computer.png" alt=""> 
+			</div>
+		</section>
+
+		<section class = "desc">
+				<div class = "innerContent">
+					<div class ="leftContent">
+						<h2>Perception</h2>
+						<p>
+						Perception is a 3D puzzle game where the players perception influences geometry. The game is meant to incite emotion in the user. This is facilitated using many techniques. The color of the levels dictate which emotion the player should experience. For example, we use red as frustration and we facilitate this emotion by creating dead ends through clever maze design. Mazes are built using blocks. Each block as 6 possible faces that a player can be on. The player must traverse the mazes by moving across the faces of blocks. The user is immediately presented with what appears to be an unsolvable maze. This is when the novel mechanic behind our game is introduced. The player will discover that by rotating the camera, and bridging two faces, they can move along the newly created path. The setting is meant to be as simple as possible. The background starts as solid white, and as the user gets closer to the finish the background becomes the color of the emotion of the maze. It is important that our game looks and feels as simple as possible as the details of the implementation must not be obvious. 
+
+						</p>
+					</div>
+					<div class ="rightContent">
+						<p><b>Role</b></p>
+						<p><em>Unity Game Developer</em></p>
+						<div>
+							<p><b>Project</b></p>
+							<p><em>Game</em></p>
+							<p><b>Tools</b></p>
+							<p><em>Unity</em></p>
+							<p><em>FL Studio 12</em></p>
+							<p><em>Maya</em></p>
+							<p><b>Language</b></p>
+							<p><em>C#</em></p>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<section class = "footer">
+			<div class ="content">
+				<div class = "vid-style">
+					<img src="img/videoHolder.png" alt=""> 
+						<video controls>
+							  <source src="video/demo.mp4" type="video/mp4">
+							  <source src="video/demo.ogg" type="video/ogg">
+							  Your browser does not support the video tag.
+						</video>
+				</div>
+			</div>
+		</section>
+
+		<script src ="js/paralax.js"></script>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/typed.js"></script>
+		<script>
+			$(function(){
+				$(".element").typed({
+					strings: ["A 3d maze solving game"],
+					typeSpeed: 20
+				});
+			});
+		</script>
+	</body>
+</html>
